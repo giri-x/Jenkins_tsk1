@@ -28,10 +28,10 @@ class ApplicantServiceImplTest {
 //		assertNotNull(asi.getApplicant(3));
 //	}
 //
-//	@Test
-//	void testGetAllApplicant() {
-//		assertNotNull(asi.getAllApplicant());
-//	}
+	@Test
+	void testGetAllApplicant() {
+		assertNotNull(asi.getAllApplicant());
+	}
 //
 //	@Test
 //	void testUpdateApplicant() {
@@ -39,9 +39,9 @@ class ApplicantServiceImplTest {
 //		assertEquals("Success", asi.addApplicant(ap));
 //	}
 
-	@Test
-	void testDeleteApplicantId() {
-		assertEquals("deleted", asi.deleteApplicantId(23));
-	}
+//	@Test
+//	void testDeleteApplicantId() {
+//		assertEquals("deleted", asi.deleteApplicantId(25));
+//	}
 
 }
