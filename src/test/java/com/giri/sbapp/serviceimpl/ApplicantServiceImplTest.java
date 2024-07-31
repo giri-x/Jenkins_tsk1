@@ -12,7 +12,7 @@ class ApplicantServiceImplTest {
 
 	@Autowired
 	ApplicantServiceImpl asi;
-
+//
 //	@Test
 //	void testAddApplicant() {
 //		Applicant ap = new Applicant(0,"23 years","Java",null,null);
@@ -20,6 +20,9 @@ class ApplicantServiceImplTest {
 //		
 //	}
 
+	
+	
+	
 //	@Test
 //	void testGetApplicant() {
 //		assertNotNull(asi.getApplicant(3));
@@ -38,7 +41,7 @@ class ApplicantServiceImplTest {
 
 	@Test
 	void testDeleteApplicantId() {
-		assertEquals("deleted", asi.deleteApplicantId(17));
+		assertEquals("deleted", asi.deleteApplicantId(23));
 	}
 
 }
